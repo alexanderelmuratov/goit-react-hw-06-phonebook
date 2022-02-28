@@ -10,10 +10,9 @@ const initialItems = [
 ];
 
 const items = createReducer(initialItems, {
-  [addContact]: (state, { payload }) => [...state, payload],
-  [deleteContact]: (state, { payload }) => {
-    state.filter(item => item.id !== payload);
-  },
+  [addContact]: (state, { payload }) => [payload, ...state],
+  [deleteContact]: (state, { payload }) =>
+    state.filter(item => item.id !== payload),
 });
 
 const filter = createReducer('', {

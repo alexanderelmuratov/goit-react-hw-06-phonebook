@@ -5,10 +5,9 @@ export const ContactSet = styled.ul`
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 3px dotted #757575; */
-    background-color: #F0EDE5;
-  /* background-color: #F0EAD6; */
+  background-color: #d5f4e6;
   border-radius: 5px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 `;
 
 export const ContactsError = styled.p`

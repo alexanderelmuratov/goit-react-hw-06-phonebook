@@ -3,13 +3,8 @@ import styled from 'styled-components';
 export const PhonebookSection = styled.section`
   width: 480px;
   padding: 20px;
-  margin: 0 auto;
-  /* background-color: #98DDDE; */
-  /* background-color: #EDCDC2; */
-  /* background-color: #F0EDE5; */
-  /* background-color: #EADEDB; */
+  margin: 20px auto;
   background-color: #EDF1FF;
-  /* border: 3px dashed teal; */
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 `;
 
@@ -19,5 +14,5 @@ export const SectionTitle = styled.h1`
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 `;
